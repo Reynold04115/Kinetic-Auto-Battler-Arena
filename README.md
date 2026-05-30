@@ -2,7 +2,7 @@
 > Institution: K.E.S. Shroff College 
 > Academic Year: 2023 - 2024
 > Submitted By: Reynold D'sa , FDCA021A
-> Website Link: 
+> Website Link: https://reynold04115.github.io/Kinetic-Auto-Battler-Arena/
 
 ---
 
