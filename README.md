@@ -1,3 +1,12 @@
+> Degree: Bachelor of Computer Applications (BCA)  
+> Institution: K.E.S. Shroff College 
+> Academic Year: 2023 - 2024
+> Submitted By: Reynold D'sa , FDCA021A
+> Website Link: 
+
+---
+
+
 📑 1. Project Abstract
 The Kinetic Auto-Battler Arena is a highly performant, zero-player 2D physics sandbox built entirely with Vanilla JavaScript and the HTML5 Canvas API. It combines realistic elastic collision mechanics with RPG-lite auto-battler features, allowing users to spawn dynamic geometric entities that bounce, collide, and battle within an interactive arena. The project serves as a showcase of advanced client-side rendering, applied mathematics, and modern Object-Oriented Programming (OOP) without the use of external frameworks.
 
