@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinetic Auto-Battler Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ui-layer">
+        <h1>Kinetic Arena</h1>
+        <p>Spawn custom gladiators or click the canvas for randoms</p>
+    </div>
+
+    <div class="control-panel" id="control-panel">
+        <div class="panel-header">
+            <h3>Add Custom Entity</h3>
+            <button id="toggle-panel-btn" class="toggle-btn">−</button>
+        </div>
+        
+        <div class="panel-body">
+            <input type="text" id="entity-name" placeholder="Enter Name (e.g., Titan)" maxlength="12">
+            
+            <div class="input-group">
+                <label for="entity-shape">Shape:</label>
+                <select id="entity-shape">
+                    <option value="circle">Circle</option>
+                    <option value="square">Square</option>
+                    <option value="triangle">Triangle</option>
+                    <option value="star">Star</option>
+                    <option value="heart">Heart</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="entity-color">Aura Color:</label>
+                <input type="color" id="entity-color" value="#00ff99">
+            </div>
+            
+            <button id="spawn-btn">Spawn into Arena</button>
+        </div>
+    </div>
+
+    <canvas id="sandbox"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
